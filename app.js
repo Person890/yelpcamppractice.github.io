@@ -3,6 +3,7 @@ var app = express();
 
 app.get("/", function(req, res){
     res.send("This will be done soon");
+    console.log("trying now");
 });
 
 app.listen(process.env.PORT, process.env.IP, function(){
